@@ -3,4 +3,4 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
 COPY . .
-CMD [ "node", "dist/main.js" ]
+CMD [ "node", "./dist/index.js" ]
