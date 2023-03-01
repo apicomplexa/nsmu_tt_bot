@@ -6,7 +6,10 @@ exports.default = {
 This is a bot of the SSMU schedule synchronization project with electronic calendars
 In order to get started, send here a link to your schedule from the <a href="http://ruz.nsmu.ru">Site of NSMU</a>
 
-<a href="https://github.com/apicomplexa/nsmu-timetable">Project GitHub</a>`,
+<a href="https://github.com/apicomplexa/nsmu-timetable">Project GitHub</a>
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSczKTcI5unV59H3I4O_I71PdfOfJncTdJvvFoOBNIl142eXCg/viewform?usp=sf_link">Error feedback</a>
+`,
     sendIcalLink: `Fine, It is link to subscribe to online calendars`,
     subscribtionInstruction: `Past this link to your calendar 
  

@@ -11,7 +11,7 @@ bot.start((ctx) => ctx.replyWithHTML(messagesTexts.info));
 bot.on('text', async (ctx) => {
   const message = ctx.message.text.replace("-", "\-")
   console.log(message)
-  const messageTextMatch = message.match(/http\:\/\/ruz\.nsmu\.ru\/\?group\=(.*)\/(.*)\&spec\=(.*)\#/)
+  const messageTextMatch = message.match(/.*\:\/\/ruz\.nsmu\.ru\/\?group\=(.*)\/(.*)\&spec\=(.*)\#/)
   if (messageTextMatch) {
     console.log(`${messageTextMatch[1]}-${messageTextMatch[2]}-${messageTextMatch[3]}`)
     const icalLink = `${ICAL_SERVER_URL}/${messageTextMatch[1]}/${messageTextMatch[2]}/${messageTextMatch[3]}`.replace("-", "\-")
